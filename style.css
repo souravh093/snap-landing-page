@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --white: hsl(0, 0%, 98%);
+    --gray: hsl(0, 0%, 41%);
+    --black: hsl(0, 0%, 8%);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+body p{
+    font-size: 18px;
+}
+
+/* Banner Style Start */
+.banner {
+    background: var(--white);
+    padding: 5em 10em;
+    width: 100%;
+    position: relative;
+}
+
+.row { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .row .col60 {
+    width: 100%;
+}
+
+.col60 h2 {
+    font-weight: 700;
+    font-size: 7.5em;
+    color: var(--black);
+    line-height: 1em;
+}
+
+.col60 p {
+    font-weight: 500;
+    columns: var(--gray);
+    margin: 3rem 0;
+    inline-size: 27em;
+}
+
+.col60 .btn {
+    padding: 1rem 2rem;
+    background: var(--white);
+    outline: none;
+    border: 2px solid var(--gray);
+    border-radius: 1rem;
+    color: var(--black);
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 150px;
+}
+
+.col60 .btn:hover {
+    color: var(--white);
+    background: var(--gray);
+}
+
+.col60 .brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col40 .brand a {
+    margin-left: 0;
+}
+
+
+
+.col40 {
+    width: 100%;
+    
+    
+}
+
+.col40 img {
+    width: 100%;
+    padding: 100px;
+    
+}
+
+
+/* Banner Style End */
+
+/* Navegation Style Start */
+.nav {
+    width: 100%;
+    position: absolute;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+    align-items: center;
+}
+
+.nav .logo {
+    font-weight: 700;
+    color: var(--black);
+    font-size: 1.5em;
+}
+
+.nav .menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav .menu ul li {
+    margin: 0 10px;
+}
+
+.nav .menu ul li a {
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.nav .menu ul li a:hover {
+    color: var(--black);
+}
+
+.nav .registration ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav .registration ul li {
+    margin: 0 10px;
+}
+
+.nav .registration ul li:nth-child(2) {
+    border: 2px solid var(--gray);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav .registration ul li a {
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.nav .registration ul li a:hover {
+    color: var(--black);
+}
+
+
+/* Navegation Style End */
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
